@@ -178,7 +178,7 @@ protocol StoreKit2PurchaseIntentType: Equatable, Sendable {
     var id: StoreKit.Product.ID { get }
 }
 
-@available(iOS 16.4, macOS 14.4, *)
+@available(iOS 18.0, macOS 14.4, *)
 extension StoreKit.PurchaseIntent: StoreKit2PurchaseIntentType { }
 
 #endif
